@@ -1,7 +1,10 @@
 # Cognitive Representation - Attention Mechanism
 
 ## The Attention Pattern Introduced
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eMlx5fFNoYc?si=OmvVZnhtqkIQS9ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/eMlx5fFNoYc/0.jpg)](https://youtu.be/eMlx5fFNoYc?si=37fwBZykRBDZImwZ&t=269)
+
+https://youtu.be/eMlx5fFNoYc?si=37fwBZykRBDZImwZ&t=269 [![YouTube Video Views](https://img.shields.io/youtube/views/eMlx5fFNoYc?style=social)](https://www.youtube.com/watch?v=eMlx5fFNoYc)
+
 
 ## Objectives
 1. Investigates which type of ML design pattern it belongs to.
