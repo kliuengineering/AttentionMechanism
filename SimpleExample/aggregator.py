@@ -20,6 +20,7 @@ from word import Word
 from attention_calculator import AttentionCalculator
 
 
+# concrete observer / or we can call it subscriber
 class WeightedAggregator(Observer):
     def __init__(self, words: List[Word], attention_calculator: AttentionCalculator, context: str):
         self.words = words

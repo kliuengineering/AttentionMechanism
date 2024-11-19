@@ -15,6 +15,7 @@ About word.py:
 from observer import Subject
 
 
+# concrete subjects from the observer pattern
 class Word(Subject):
     def __init__(self, text: str):
         super().__init__()

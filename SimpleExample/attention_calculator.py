@@ -19,6 +19,7 @@ from decorator import AttentionWordDecorator # type: ignore
 from strategy import AttentionStrategy
 
 
+# composition bridge between concrete strategies and decorated embeddings 
 class AttentionCalculator:
     def __init__(self, strategy: AttentionStrategy):
         self._strategy = strategy

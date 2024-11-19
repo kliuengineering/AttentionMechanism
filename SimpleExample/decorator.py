@@ -18,6 +18,7 @@ from abc import ABC, abstractmethod
 from word import Word
 
 
+# << interface >>, abstract decorator
 class WordDecorator(ABC):
     def __init__(self, word: Word):
         self._word = word
@@ -27,6 +28,8 @@ class WordDecorator(ABC):
         pass
 
 
+# concrete decorator A
+# adds the weight parameter for intelligence
 class AttentionWordDecorator(WordDecorator):
     def __init__(self, word: Word, weight: float):
         super().__init__(word)
