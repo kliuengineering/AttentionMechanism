@@ -27,6 +27,7 @@ https://youtu.be/eMlx5fFNoYc?si=37fwBZykRBDZImwZ&t=269 [![YouTube Video Views](h
 ### 3. Codebase Design Explained
 
 ## References (Hyperlink-only)
+- https://arxiv.org/abs/1706.03762
 - https://www.envisioning.io/vocab/attention-pattern
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC7996841/
 - https://www.researchgate.net/publication/383607494_Attention-Based_Method_for_Design_Pattern_Detection
