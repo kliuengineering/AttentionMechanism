@@ -1,0 +1,82 @@
+# macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Python-related files and directories
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.env
+*.venv
+env/
+venv/
+.Python
+
+# Logs and cache
+*.log
+*.cache
+*.gz
+*.zip
+*.tar.gz
+*.sqlite3
+
+# Virtual environments
+*.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Other common directories and files
+*.idea/
+*.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg
+MANIFEST
+
+# Testing-related files
+.tox/
+.pytest_cache/
+nose2-*.xml
+*.cover
+.cache
+
+# Pyre type checker
+.pyre/
