@@ -29,8 +29,13 @@ The attention design pattern addresses this by providing a mechanism to evaluate
 ![Description of UML Diagram](./assets/UML.png)
 
 ## The Toy Example
+The toy example is an implementation of the UML. There are three main traditional design patterns used for aggregating the design intents for the Attention pattern, in which the pattern itself encapsulates and realizes a modern approach to the Attention mechanism. The mechanism is a well-known research done by Google in the academic paper "Attention is All You Need". [https://arxiv.org/pdf/1706.03762]
 
 ## The Sophisticated Example
+* Note: you will need to download this model for this example to work: \
+https://www.kaggle.com/datasets/watts2/glove6b50dtxt?resource=download \
+put it in the directory of ~/PracticalExample/
+
 ### 1. Problem Statement
 Understanding the context-specific importance of words within a sentence is vital in natural language processing (NLP) and machine learning applications. Traditional models often assign equal weight to all words or use fixed weighting schemes, which can lead to inefficiencies and inaccuracies, especially when processing nuanced or context-dependent language. The key challenge is to dynamically identify which words are most relevant in a given context and adjust their influence accordingly. This dynamic relevance assessment is essential for tasks like text summarization, machine translation, and sentiment analysis, where the semantic relationships between words and their contexts significantly affect performance.
 
