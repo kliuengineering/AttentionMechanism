@@ -80,3 +80,6 @@ nose2-*.xml
 
 # Pyre type checker
 .pyre/
+
+# models
+PracticalExample/*.txt

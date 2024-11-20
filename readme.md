@@ -32,10 +32,13 @@ The attention design pattern addresses this by providing a mechanism to evaluate
 
 ## The Sophisticated Example
 ### 1. Problem Statement
+Understanding the context-specific importance of words within a sentence is vital in natural language processing (NLP) and machine learning applications. Traditional models often assign equal weight to all words or use fixed weighting schemes, which can lead to inefficiencies and inaccuracies, especially when processing nuanced or context-dependent language. The key challenge is to dynamically identify which words are most relevant in a given context and adjust their influence accordingly. This dynamic relevance assessment is essential for tasks like text summarization, machine translation, and sentiment analysis, where the semantic relationships between words and their contexts significantly affect performance.
 
 ### 2. Solving the Problem Using the Attention Pattern
+To solve this problem, we implemented the Attention Design Pattern, which enables the system to dynamically focus on and prioritize words based on their relevance to a specific context. By integrating pre-trained GloVe word embeddings, each word is represented as a numerical vector capturing its semantic meaning. An attention mechanism calculates weights for each word by computing the cosine similarity between the word's embedding and the context embedding (the average of embeddings for context words). This allows the model to assign higher importance to words that are more semantically related to the context, enhancing the performance of tasks like text summarization, machine translation, and sentiment analysis. Additionally, we utilized design patterns such as Strategy, Observer, and Decorator to ensure the system is modular, flexible, and maintainable.
 
 ### 3. Codebase Design Explained
+Every .py file is well-documented and should be self-explanatory. Please refer to the files individually for modular explanations.
 
 ## References (Hyperlink-only)
 - https://arxiv.org/abs/1706.03762
