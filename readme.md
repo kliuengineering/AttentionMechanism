@@ -13,11 +13,10 @@ https://youtu.be/eMlx5fFNoYc?si=37fwBZykRBDZImwZ&t=269 [![YouTube Video Views](h
 4. Implements the pattern with a simple application.
 5. Implements the pattern with a more sophisticated application.
 
-## Abstract UML
+## The UML
+![Description of UML Diagram](./assets/UML.png)
 
-## The Simple Example
-
-## Implementation UML
+## The Toy Example
 
 ## The Sophisticated Example
 ### 1. Problem Statement
